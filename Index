@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaTech Solutions</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .navbar {
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://images.pexels.com/photos/33679486/pexels-photo-33679486.jpeg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 150px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-top: 10px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><i class="bi bi-lightning-charge-fill text-warning"></i> NovaTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex flex-column justify-content-center align-items-center">
+    <h1>Transformamos ideas en soluciones digitales</h1>
+    <p>Innovación, tecnología y resultados para tu negocio</p>
+    <a href="#contacto" class="btn btn-warning btn-lg mt-4"><i class="bi bi-envelope-fill"></i> Contáctanos</a>
+  </header>
+
+  <!-- Servicios -->
+  <section id="servicios" class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Nuestros Servicios</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-code-slash display-4 text-primary"></i>
+            <h5 class="card-title mt-3">Desarrollo Web</h5>
+            <p class="card-text">Diseñamos sitios web modernos, responsivos y optimizados para tu negocio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-phone display-4 text-success"></i>
+            <h5 class="card-title mt-3">Aplicaciones Móviles</h5>
+            <p class="card-text">Creamos apps nativas e híbridas que mejoran la experiencia de tus clientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-cloud-fill display-4 text-info"></i>
+            <h5 class="card-title mt-3">Soluciones en la Nube</h5>
+            <p class="card-text">Infraestructura escalable y segura para garantizar la disponibilidad 24/7.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="portafolio" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Portafolio de Productos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://images.pexels.com/photos/33802100/pexels-photo-33802100.jpeg" class="card-img-top" alt="CRM Empresarial">
+            <div class="card-body">
+              <h5 class="card-title">CRM Empresarial</h5>
+              <p class="card-text">Gestión eficiente de clientes y ventas en una plataforma intuitiva.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://images.pexels.com/photos/17614480/pexels-photo-17614480.jpeg" class="card-img-top" alt="App de Reservas">
+            <div class="card-body">
+              <h5 class="card-title">App de Reservas</h5>
+              <p class="card-text">Facilita la programación de servicios desde cualquier dispositivo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg" class="card-img-top" alt="Plataforma eLearning">
+            <div class="card-body">
+              <h5 class="card-title">Plataforma e-Learning</h5>
+              <p class="card-text">Educación digital para empresas y organizaciones en crecimiento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Lo que dicen nuestros clientes</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="fst-italic">“Gracias a NovaTech, logramos digitalizar nuestros procesos en tiempo récord. Su equipo es altamente profesional.”</p>
+            <h6 class="fw-bold mb-0">Ana Gómez</h6>
+            <small>CEO - Inversiones Globales</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="fst-italic">“La aplicación móvil que desarrollaron para nuestra empresa superó nuestras expectativas. ¡Excelente trabajo!”</p>
+            <h6 class="fw-bold mb-0">Carlos Rodríguez</h6>
+            <small>Director - TravelApp</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Contáctanos</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="col-md-6">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="correo" required>
+        </div>
+        <div class="col-12">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="4"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-warning"><i class="bi bi-send-fill"></i> Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 NovaTech Solutions - Todos los derechos reservados</p>
+      <p>
+        <a href="#"><i class="bi bi-facebook me-3"></i></a>
+        <a href="#"><i class="bi bi-twitter me-3"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+SS
